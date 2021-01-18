@@ -19,12 +19,13 @@ collection = mydb['customers']
 
 
 #API calling example
-# http://127.0.0.1:8000/v1/mahistory/?start_date='2020-01-17'&end_date='2020-01-18'
+# http://127.0.0.1:8000/v1/mahistory/?plant_id=1&start_date='2020-01-17'&end_date='2020-01-18'
 @app.get('/v1/mahistory/')
-async def ma_history(start_date: str, end_date: str):
+async def ma_history(plant_id: int, start_date: str, end_date: str):
     # database.check_connection()
 
     #use variables from query parameters
+    print('plant id', plant_id)
     print('start date', start_date)
     print('end date', end_date)
 
