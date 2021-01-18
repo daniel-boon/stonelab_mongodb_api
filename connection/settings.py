@@ -19,24 +19,30 @@ class Database_connection:
        
        check_connection()
     '''
-    def __init__(self,database,collection):
+    def __init__(self):
+        self.mongodb_host = MONGODB_HOST
+        self.mongodb_user = MONGODB_USER
+        self.mongodb_pwd = MONGODB_PWD
+        self.mongodb_port = MONGODB_PORT
         self.client = MongoClient('mongodb://{}:{}@{}:{}'.format(MONGODB_USER,MONGODB_PWD,MONGODB_HOST,MONGODB_PORT))
-        self.database = database
-        self.collection = collection
     
     def check_connection(self):
         '''Check database connection
 
-        Success output: SUCESSFULLY CONNECTED TO -> database_name 
-
-        Fail output: CONNECTION ERROR!'''
+        Success output: SUCESSFULLY CONNECTED - return True
+        
+        Fail output: CONNECTION ERROR! - return False
+        
+        '''
 
         client = self.client
-        database = self.database
+
         try:
             client.server_info()
-            print('SUCESSFULLY CONNECTED TO -> {}'.format(database))
+            print('SUCESSFULLY CONNECTED')
+            return True
         except:
             print('CONNECTION ERROR!')
+            return False
 
     
