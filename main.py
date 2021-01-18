@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import JSONResponse
 from typing import Optional
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -36,7 +37,7 @@ async def ma_history(plant_id: int, start_date: str, end_date: str):
     result = dumps(list_cur,sort_keys=True,ensure_ascii=True)
     result = json.loads(result.replace("\'", '"'))
 
-    return result
+    return JSONResponse(status_code=200, content=result)
 
 
 #uvicorn main:app --reload
