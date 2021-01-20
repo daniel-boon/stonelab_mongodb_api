@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+stonelabPlantsAccess.json
+jsonFiles/*
+mongo_summary.py
