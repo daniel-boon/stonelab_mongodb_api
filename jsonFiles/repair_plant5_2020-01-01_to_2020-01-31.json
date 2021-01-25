@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "KKF 2020-01-00025",
+        "internalSerial": "3015100881",
+        "toolName": "Induced Draft Fan (พัดลมดูด)",
+        "problem": "HMdg",
+        "informByFullname": "เอกลักษณ์ จักรพรม",
+        "informDate": "2020-01-14 15:38:01",
+        "remark": "FAN (3504.10)",
+        "repairTagId": 1,
+        "repairDangerTagId": 1,
+        "returnDate": "-",
+        "repairType": "reject",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "-",
+        "departmentName": "ผลิต",
+        "repairTypeJob": "เครื่องกล",
+        "urgentLevel": "ด่วน (Urgent)"
+    }
+]

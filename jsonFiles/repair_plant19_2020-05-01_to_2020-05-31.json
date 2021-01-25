@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "BCF_05/2020_0030",
+        "internalSerial": "AMS-02",
+        "toolName": "Dosatron Pump",
+        "problem": "ตัวผสมน้ำยา ป้อมยาม สเปยร์โฟมรั้ว น้ำยาไหลออก\n",
+        "informByFullname": "ประเทือง ยอดเอม",
+        "informDate": "2020-05-02 15:37:26",
+        "remark": "ชุดผสมน้ำยาโดซาตรอน ",
+        "repairTagId": 1,
+        "repairDangerTagId": 1,
+        "returnDate": "2020-05-13 16:36:56",
+        "repairType": "done",
+        "ratingScore": 5,
+        "userComment": "ใช้งานได้ดี",
+        "commentBy": "ประเทือง ยอดเอม",
+        "failureCode": "FC04",
+        "failureDescriptionEng": "รั่ว / ซึม",
+        "failureDescriptionTha": "รั่ว / ซึม",
+        "repairCode": "RC09",
+        "repairDescriptionEng": "ตัดต่อใหม่",
+        "repairDescriptionTha": "ตัดต่อใหม่",
+        "rootCause": "ทุอชำรุด",
+        "solution": "เปลืยนทุอ",
+        "engineer": "ทองดี สีคำภา",
+        "departmentName": "อาคาร บ้านพัก",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ด่วน (Urgent)"
+    }
+]

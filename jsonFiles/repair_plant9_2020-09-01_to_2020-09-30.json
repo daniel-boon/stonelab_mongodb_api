@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "PTF_092020_061",
+        "internalSerial": "3012100631",
+        "toolName": "Turn Head",
+        "problem": "ซิลลิโคลนยางรักคอท่อเสียรูป",
+        "informByFullname": "อมรศักดิ์ สารพิมพ์",
+        "informDate": "2020-09-28 14:04:08",
+        "remark": "Distributor 118",
+        "repairTagId": 1,
+        "repairDangerTagId": 0,
+        "returnDate": "-",
+        "repairType": "waitForAssign",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "-",
+        "departmentName": "ไซโลอบ 1 รับวัตถุดิบ",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]

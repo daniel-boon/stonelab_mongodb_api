@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "BPF-01-06-2020_00184",
+        "internalSerial": "3004100244",
+        "toolName": "Pellet Mill",
+        "problem": "ป้องกันการอุดตันของฝุ่นกลับ",
+        "informByFullname": "Nattawat Jirajaruwat",
+        "informDate": "2020-06-01 16:50:22",
+        "remark": "เครื่องอัดเม็ด 1 ตึกผลิต 1",
+        "repairTagId": 1,
+        "repairDangerTagId": 1,
+        "returnDate": "-",
+        "repairType": "waitForResponse",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "วรัท พานเทียน",
+        "departmentName": "ฝ่ายผลิต BP1",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]

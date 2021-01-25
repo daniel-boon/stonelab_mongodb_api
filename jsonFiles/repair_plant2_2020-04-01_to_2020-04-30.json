@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "-",
+        "internalSerial": "AAPCY-01",
+        "toolName": "Modular Belt Conveyor",
+        "problem": "มอเตอร์เสียงดัง",
+        "informByFullname": "production 11",
+        "informDate": "2020-04-22 16:07:13",
+        "remark": "สายพานลำเลียงตระกร้าขาออกตัวที่ 1",
+        "repairTagId": 1,
+        "repairDangerTagId": 0,
+        "returnDate": "2020-04-22 16:16:01",
+        "repairType": "done",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "production 11",
+        "failureCode": "BC09",
+        "failureDescriptionEng": "เสียหายจาก ตลับลูกปืน (Bearing)",
+        "failureDescriptionTha": "เสียหายจาก ตลับลูกปืน (Bearing)",
+        "repairCode": "RC13",
+        "repairDescriptionEng": "อัดจารบี",
+        "repairDescriptionTha": "อัดจารบี",
+        "rootCause": "ไม่มีสารหล่อลื่น",
+        "solution": "อัดจารบี",
+        "engineer": "Jiranat Thongcharoenpanit",
+        "departmentName": "PLANT-1",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]

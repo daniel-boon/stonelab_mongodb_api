@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "HYF_22092020_0001",
+        "internalSerial": "3011100085",
+        "toolName": "Chain Conveyor",
+        "problem": "Hopper ใต้ทางเทป้อน B2,3 มีรอยแตก",
+        "informByFullname": "ปรีชา เทพวัน",
+        "informDate": "2020-09-22 11:31:51",
+        "remark": "เชน ทางเทBULK9",
+        "repairTagId": 1,
+        "repairDangerTagId": 0,
+        "returnDate": "2020-10-10 14:57:02",
+        "repairType": "done",
+        "ratingScore": 5,
+        "userComment": "Auto Evaluate",
+        "commentBy": "ปรีชา เทพวัน",
+        "failureCode": "FC08",
+        "failureDescriptionEng": "สั่น / โยกคลอน",
+        "failureDescriptionTha": "สั่น / โยกคลอน",
+        "repairCode": "RC05",
+        "repairDescriptionEng": "ปรับตั้งใหม่",
+        "repairDescriptionTha": "ปรับตั้งใหม่",
+        "rootCause": "มอเตอร์สั่นฮอปเปอร์สั่นค้าง",
+        "solution": "ปรับตั้ง lelve ฮอปเปอร์ใหม่ พร้อมเชื่อมรอยแตก",
+        "engineer": "บัณฑิต บัวมาศ",
+        "departmentName": "คลังวัตถุดิบ-1",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]

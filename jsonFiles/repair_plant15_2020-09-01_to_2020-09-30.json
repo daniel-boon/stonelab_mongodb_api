@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "Min2-493",
+        "internalSerial": "BPMD03",
+        "toolName": "Metal Detector (เครื่องตรวจจับโลหะ)",
+        "problem": "ตัวล็อกกระดานหลุดหาย",
+        "informByFullname": "จรัญ เครือซ้า",
+        "informDate": "2020-09-18 09:20:46",
+        "remark": "เครื่องตรวจจับโลหะ (METAL DETECTOR) No.3",
+        "repairTagId": 1,
+        "repairDangerTagId": 0,
+        "returnDate": "-",
+        "repairType": "waitForAssign",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "-",
+        "departmentName": "OPERATE RTE",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]

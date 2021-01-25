@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "CPFL-02-2020_001",
+        "internalSerial": "20073",
+        "toolName": "Deionized Water System",
+        "problem": "เครื่องแจ้งความผิดพลาด",
+        "informByFullname": "สำราญ ปราบภัย",
+        "informDate": "2020-02-19 08:34:46",
+        "remark": "เครื่องผลิต DI water",
+        "repairTagId": 1,
+        "repairDangerTagId": 0,
+        "returnDate": "-",
+        "repairType": "waitForResponse",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "Sudarat Phongsawanit",
+        "departmentName": "CP Food Lab",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]

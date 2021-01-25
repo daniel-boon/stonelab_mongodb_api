@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "PTF_102020_062",
+        "internalSerial": "3012101358",
+        "toolName": "Building",
+        "problem": "เพิ่มหัวฉีดสเปร์ยน้ำยาฆ่าเชื้อปลายท่อรถไซโล",
+        "informByFullname": "ยงยุทธ นามมูลศรี",
+        "informDate": "2020-10-28 14:47:38",
+        "remark": "โรงสเปรย์ฆ่าเชื้อ รถไซโล",
+        "repairTagId": 1,
+        "repairDangerTagId": 1,
+        "returnDate": "-",
+        "repairType": "waitForAssign",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "-",
+        "departmentName": "โรงฆ่าเชื้อ",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ด่วน (Urgent)"
+    }
+]

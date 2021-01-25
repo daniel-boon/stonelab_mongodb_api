@@ -1,0 +1,30 @@
+[
+    {
+        "repairJobId": "2020-09-0001",
+        "internalSerial": "F2L-071",
+        "toolName": "Flour Sprinkle Machine (เครื่องโรยแป้ง)",
+        "problem": "control speed drum ชำรุด",
+        "informByFullname": "คุณอนุชิต  ชัยปลัด",
+        "informDate": "2020-09-12 09:39:07",
+        "remark": "เครื่องคลุกแป้ง DB4 TMT",
+        "repairTagId": 1,
+        "repairDangerTagId": 0,
+        "returnDate": "-",
+        "repairType": "waitForAssign",
+        "ratingScore": 0,
+        "userComment": "-",
+        "commentBy": "-",
+        "failureCode": "-",
+        "failureDescriptionEng": "-",
+        "failureDescriptionTha": "-",
+        "repairCode": "-",
+        "repairDescriptionEng": "-",
+        "repairDescriptionTha": "-",
+        "rootCause": "-",
+        "solution": "-",
+        "engineer": "-",
+        "departmentName": "วิศวกรรม",
+        "repairTypeJob": "ทั่วไป (Normal)",
+        "urgentLevel": "ไม่ด่วน (Not Urgent)"
+    }
+]
