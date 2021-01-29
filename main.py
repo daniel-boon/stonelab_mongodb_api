@@ -39,22 +39,22 @@ async def data_stonelab(plant_alias: str, start_date: str, end_date: str):
     print(str(plant_alias))
     print(str(start_date))
     print(str(end_date))
-    notimeout: str
 
     # myquery1 = {"plant_alias": plant_alias}
     
-    myquery = {"plantAlias": plant_alias, "actualdate": dict()}
+    myquery = {"plantAlias": plant_alias, "actualdate": dict() }
 
     if start_date is not None:
         myquery["actualdate"]["$gte"] = start_date
 
     if end_date is not None:
         myquery["actualdate"]["$lte"] = end_date
+
+    
  
     print(myquery)
     mydoc = stonelabdata.find(myquery).limit(1000)
 
-# {'plantAlias': 'FL', 'actualdate': {'$gte': '2020-04-21', '$lte': '2020-04-22'}}
     list_cur = list(mydoc)
     result = dumps(list_cur,sort_keys=True,ensure_ascii=True)
     result = json.loads(result.replace("\'", '"'))
