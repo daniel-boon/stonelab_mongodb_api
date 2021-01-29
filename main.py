@@ -53,7 +53,7 @@ async def data_stonelab(plant_alias: str, start_date: str, end_date: str):
     
  
     print(myquery)
-    mydoc = stonelabdata.find(myquery).limit(9999)
+    mydoc = stonelabdata.find(myquery).limit(1000)
 
     list_cur = list(mydoc)
     result = dumps(list_cur,sort_keys=True,ensure_ascii=True)
