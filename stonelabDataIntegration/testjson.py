@@ -38,7 +38,7 @@ for i in range(total_file):
         # print(result)
         id = int(result.group(1))
         name = get_plant_alias(id)
-        # print("{0}\t: {1}".format(name, file))
+        print("{0}\t: {1}".format(name, file))
 
         ma_file = open("{0}/{1}".format(path, file))
         madata = json.load(ma_file)
@@ -50,4 +50,3 @@ for i in range(total_file):
             json.dump(madata, fp, ensure_ascii=False)
 
         print("{0} %".format(float((i + 1) * 100.0 / total_file)))
-        
