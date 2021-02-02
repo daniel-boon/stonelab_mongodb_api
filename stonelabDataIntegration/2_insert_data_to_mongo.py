@@ -1,10 +1,11 @@
-import os
 from glob import glob, iglob
 from dotenv import load_dotenv
-from pymongo import MongoClient 
+from pymongo import MongoClient
+import os
 import json
+import pprint
 
-load_dotenv('.env')
+load_dotenv('connection/.env')
 
 MONGODB_HOST = os.environ.get("MONGODB_HOST")
 MONGODB_USER = os.environ.get("MONGODB_USER")
@@ -15,15 +16,23 @@ client = MongoClient('mongodb://{}:{}@{}:{}'.format(MONGODB_USER,MONGODB_PWD,MON
 mydb = client['stonelab']
 mycol_ma = mydb['history_ma']
 mycol_repair =mydb['history_repair']
-mycol_stoneLab =mydb['stoneLabPlantsAccess']
+
+mycol_newData = mydb['history_new_data']
+
+path = './finalData'
+files = os.listdir(path)
+# print(files)
+
 
 # ----------------------------------------------------------------------------------------------
+for i in files:
+    finalFile = open('finalData/{}'.format(i))
+    print(finalFile)
+    finalData = json.load(finalFile)
+    finalDataRusult = mycol_newData.insert_many(finalData)
+    finalFile.close()
+    # print("1")
 
-stonelabPlantsAccessfile = open('/Users/panusronphansod/Downloads/stonelabPlantsAccess.json')
-stonelabPlantsAccessData = json.load(stonelabPlantsAccessfile)
-stonelabPlantsAccessSesult = mycol_stoneLab.insert_many(stonelabPlantsAccessData)
-stonelabPlantsAccessfile.close()
-print("stoneLab")
 
 # ----------------------------------------------------------------------------------------------
 

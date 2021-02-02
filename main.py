@@ -19,14 +19,14 @@ client = database.client
 mydb = client['stonelab']
 # ma_collection = mydb['history_ma']
 # repair_collection = mydb['history_repair']
-stonelabdata= mydb['stonelab_data']
+stonelabdata= mydb['history_new_data']
 
 #API calling example
 # http://127.0.0.1:8000/v1/mahistory/?plant_id=1&start_date='2020-01-17'&end_date='2020-01-18'
 # plan 2 http://127.0.0.1:8000/v1/stonelab/?plant_alias=FL&start_date=2020-04-21&end_date=2020-04-22
 
 @app.get('/v1/stonelab/')
-async def data_stonelab(plant_alias: str, start_date: str, end_date: str):
+async def ma_repair_data(plant_alias: str, start_date: str, end_date: str):
     # , start_date: str, end_date: str
     # database.check_connection()
 
@@ -53,7 +53,7 @@ async def data_stonelab(plant_alias: str, start_date: str, end_date: str):
     
  
     print(myquery)
-    mydoc = stonelabdata.find(myquery).limit(1000)
+    mydoc = stonelabdata.find(myquery)
 
     list_cur = list(mydoc)
     result = dumps(list_cur,sort_keys=True,ensure_ascii=True)
