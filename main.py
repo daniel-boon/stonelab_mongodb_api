@@ -27,7 +27,6 @@ stonelabdata= mydb['history_new_data']
 
 @app.get('/v1/stonelab/')
 async def ma_repair_data(plant_alias: str, start_date: str, end_date: str):
-    # , start_date: str, end_date: str
     # database.check_connection()
 
     #use variables from query parameters
@@ -58,6 +57,11 @@ async def ma_repair_data(plant_alias: str, start_date: str, end_date: str):
     list_cur = list(mydoc)
     result = dumps(list_cur,sort_keys=True,ensure_ascii=True)
     result = json.loads(result.replace("\'", '"'))
+
+    def get_data(self, name):
+        for data in self.__data:
+            if data['actualdate'] == startdatetime:
+                return student
 
     return JSONResponse(status_code=200, content=result)
     
