@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Jane Muller",
+    "age": "22",
+    "status": "Single",
+    "address": [
+      {
+        "houseNo": "2/2",
+        "village": "SansiriVille",
+        "subDistrict": "Thama-Kham",
+        "District": "Muang",
+        "province": "Kanchanaburi",
+        "zipCode": "71000"
+      },
+      {
+        "houseNo": "38 moo7",
+        "village": "-",
+        "subDistrict": "NongYa",
+        "District": "Muang",
+        "province": "Kanchanaburi",
+        "zipCode": "71000"
+      },
+      {
+        "houseNo": "1/75",
+        "village": "The CUBE Condo",
+        "subDistrict": "Ratburana",
+        "District": "Ratburana",
+        "province": "Bangkok",
+        "zipCode": "10140"
+      }
+    ],
+    "height": "183",
+    "weight": "76"
+  }
+]
+
+
+// {
+//   "name": "Jane Muller",
+//   "age": "22",
+//   "status": "Single",
+//   "houseNo": "2/2",
+//   "village": "SansiriVille",
+//   "subDistrict": "Thama-Kham",
+//   "District": "Muang",
+//   "province": "Kanchanaburi",
+//   "zipCode": "71000",
+//   "height": "183",
+//   "weight": "76"
+// },
+// {
+//   "name": "Jane Muller",
+//   "age": "22",
+//   "status": "Single",
+//   "houseNo": "38 moo7",
+//   "village": "-",
+//   "subDistrict": "NongYa",
+//   "District": "Muang",
+//   "province": "Kanchanaburi",
+//   "zipCode": "71000",
+//   "height": "183",
+//   "weight": "76"
+// },
+// {
+//   "name": "Jane Muller",
+//   "age": "22",
+//   "status": "Single",
+//   "houseNo": "1/75",
+//   "village": "The CUBE Condo",
+//   "subDistrict": "Ratburana",
+//   "District": "Ratburana",
+//   "province": "Bangkok",
+//   "zipCode": "10140",
+//   "height": "183",
+//   "weight": "76"
+// }
